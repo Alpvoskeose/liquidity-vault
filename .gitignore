@@ -11,3 +11,7 @@ keypairs/
 **/id.json
 **/*-keypair.json
 **/*_keypair.json
+**/*seed*
+**/*mnemonic*
+**/*recovery-phrase*
+**/*recovery_phrase*
