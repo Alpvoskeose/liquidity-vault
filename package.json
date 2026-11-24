@@ -1,0 +1,27 @@
+{
+  "name": "liquidity-vault",
+  "private": true,
+  "type": "commonjs",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "anchor build --no-idl -- --tools-version v1.58 && anchor idl build --out target/idl/liquidity_vault.json --out-ts target/types/liquidity_vault.ts",
+    "test": "anchor test --skip-build",
+    "init:devnet": "ts-node scripts/init-devnet.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "0.32.1",
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.2.0",
+    "@types/chai": "^4.3.20",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.15.30",
+    "chai": "^4.5.0",
+    "mocha": "^10.8.2",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

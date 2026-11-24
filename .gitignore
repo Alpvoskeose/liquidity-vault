@@ -1,0 +1,13 @@
+.anchor/
+.env
+.env.*
+!.env.example
+node_modules/
+target/
+keys/
+keypairs/
+*.key
+*.pem
+**/id.json
+**/*-keypair.json
+**/*_keypair.json
